@@ -1,0 +1,351 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ccc;
+  font-family: "Poppins", serif;
+}
+
+.container1,
+.container2 {
+  width: 1230px;
+  height: 380px;
+  margin: 50px auto;
+  padding: 30px;
+}
+
+.container2 {
+  height: 1050px;
+  margin-top: 0px;
+}
+
+header {
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(images/background.jpg);
+  position: relative;
+}
+
+.heroe {
+  width: 50%;
+  height: 90px;
+  position: absolute;
+  top: 200px;
+  left: 350px;
+  color: white;
+}
+
+.heroe h1 {
+  font-size: 2.5rem;
+  position: absolute;
+  top: 5px;
+  left: 130px;
+  text-transform: capitalize;
+}
+
+.heroe p {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 70px;
+  left: 290px;
+  text-transform: lowercase;
+  color: white;
+}
+
+.welcome {
+  width: 100%;
+  border-bottom: black 2px solid;
+  margin-bottom: 50px;
+}
+
+p {
+  color: black;
+  font-size: 0.9rem;
+  text-align: justify;
+}
+
+img {
+  width: 220px;
+  height: 220px;
+  margin-right: 20px;
+  filter: grayscale(100%);
+}
+
+.float_left {
+  float: left;
+}
+
+.float_right {
+  float: right;
+}
+
+.right-right {
+  float: right;
+  width: 300px;
+  height: 230px;
+}
+
+.right-right h1 {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.right-right p {
+  margin-bottom: 15px;
+}
+
+#btnbtn {
+  font-size: 1rem;
+  position: absolute;
+  top: 130px;
+  left: 340px;
+  padding: 10px 30px;
+  border-radius: 50px;
+  color: black;
+  background-color: white;
+  border: none;
+}
+
+#btnbtn:hover {
+  color: white;
+  background-color: rgb(0, 196, 98);
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+#btnbtn:focus {
+  outline-style: none;
+}
+
+.btn1 {
+  padding: 10px 15px;
+  background-color: black;
+  outline-style: none;
+  border: none;
+  float: right;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.btn1:hover {
+  background-color: rgb(0, 196, 98);
+  color: white;
+  transition: 0.3s;
+}
+
+img:hover {
+  filter: grayscale(0%);
+  transition: 0.3s;
+}
+
+.rel {
+  position: relative;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9,
+.box10,
+.box11 {
+  background-color: white;
+}
+
+.box1 {
+  position: absolute;
+  width: 580px;
+  height: 390px;
+  background-image: url("images/ilya-vasilev-QdnS9Xjrn5Y-unsplash.jpg");
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+.box2 {
+  position: absolute;
+  width: 285px;
+  height: 190px;
+  left: 590px;
+  background-image: url("images/federico-di-dio-photography-UbjGsvEwnzc-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+.box3 {
+  top: 200px;
+  position: absolute;
+  width: 285px;
+  height: 190px;
+  left: 590px;
+  background-image: url("images/usgs-CGxdRJknf4I-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+.box4 {
+  position: absolute;
+  width: 285px;
+  height: 390px;
+  left: 885px;
+  background-image: url("images/nariman-mesharrafa-pSb4WRAqmyQ-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+.box5 {
+  position: absolute;
+  width: 285px;
+  height: 390px;
+  top: 400px;
+  background-image: url("images/marcus-lange-wWBCQ-cJeWo-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+.box6,
+.box7 {
+  position: absolute;
+  width: 285px;
+  height: 190px;
+  top: 400px;
+}
+
+.box6 {
+  left: 295px;
+  background-image: url("images/valeriy-ryasnyanskiy-j_YcCcWl_Is-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+.box7 {
+  left: 590px;
+  background-image: url("images/joshua-j-cotten-avULt-jE1YY-unsplash.jpg");
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+.box8 {
+  position: absolute;
+  width: 285px;
+  height: 390px;
+  top: 400px;
+  left: 885px;
+  background-image: url("images/steve-halama-jMlgFOiJLXc-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+.box9 {
+  position: absolute;
+  width: 285px;
+  height: 190px;
+  top: 800px;
+  background-image: url("images/max-delsid-8-Aght_oHog-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+.box10 {
+  position: absolute;
+  width: 580px;
+  height: 390px;
+  left: 295px;
+  top: 600px;
+  background-image: url("images/ehab-al-hakawati-XhIpzn20rsQ-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+.box11 {
+  position: absolute;
+  width: 285px;
+  height: 190px;
+  left: 885px;
+  top: 800px;
+  background-image: url("images/vlad-kiselov-Fe3eF795O24-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+.box1:hover {
+  filter: grayscale(0%);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.box2:hover {
+  filter: grayscale(0%);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.box3:hover {
+  filter: grayscale(0%);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.box4:hover {
+  filter: grayscale(0%);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.box5:hover {
+  filter: grayscale(0%);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.box6:hover {
+  filter: grayscale(0%);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.box7:hover {
+  filter: grayscale(0%);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.box8:hover {
+  filter: grayscale(0%);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.box9:hover {
+  filter: grayscale(0%);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.box10:hover {
+  filter: grayscale(0%);
+  transition: 0.3;
+  cursor: pointer;
+}
+
+.box11:hover {
+  filter: grayscale(0%);
+  transition: 0.3s;
+  cursor: pointer;
+}
